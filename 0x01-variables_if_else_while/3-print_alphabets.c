@@ -7,13 +7,19 @@
  */
 int main(void)
 {
-char letter;
-
-for (letter = 'A'; letter <= 'z'; letter++)
-putchar (letter);
-
+int lw = 'a';
+int up = 'A';
+while (lw <= 'z')
+{
+putchar(lw);
+lw += 1;
+}
+while (up <= 'Z')
+{
+putchar(up);
+up += 1;
+}
 putchar('\n');
-
 return (0);
 }
 
