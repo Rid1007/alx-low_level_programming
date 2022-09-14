@@ -15,6 +15,6 @@ for (i = 97; i <= 122; i++)
 _putchar(i);
 }
 /* using ASCII values in the code above*/
-_putchar('\n'); :
+_putchar('\n');
 }
 }
